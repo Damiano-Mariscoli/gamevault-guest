@@ -1,0 +1,47 @@
+/* style for the card */
+      .card {
+        background-color: #1a1a1a !important;
+        border: 1px solid #333 !important;
+        color: #f0f0f0 !important;
+        height: 350px !important;
+        object-fit: cover !important;
+        max-width: 100vw !important;
+        width: 100% !important;
+      }
+      .card:hover {
+        transition: transform 0.2s ease-in-out !important;
+        transform: scale(1.03) !important;
+      }
+
+
+a {
+  text-decoration: none !important;
+  color: inherit !important;
+}
+.heigth-full{
+    min-height: 100vh !important;
+    background-color: #121212 !important;
+}
+
+
+.text-lime{
+  color: #a4ff00 !important;
+}
+
+.text-white{
+    color:#c3c3c3 !important ;
+}
+
+.form-control{
+  background-color: #1e1e1e !important;
+  border: 1px solid #333 !important;
+  color:#c3c3c3 !important ;
+
+}
+.form-control::placeholder {
+  color: #c3c3c3 !important;
+}
+
+html{
+      background-color: #121212 !important;
+}
